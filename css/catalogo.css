@@ -1,0 +1,47 @@
+.responsive, div.codigo{
+	font-family:lato;		
+	padding:2em;
+	background-color: #fdfdf0;
+	line-height: 140%;
+	border:1px dashed #d4c992;
+	font-size: 1.1em;
+}
+.responsive{
+	margin-top:3em;
+	background-image: url("../img/code.png");
+	background-repeat: no-repeat;
+	background-size: 3%;
+	background-position: top 1em right 1em;	
+
+}
+div.codigo{
+	margin-bottom:3em;
+
+}
+.responsive p, div.codigo p{
+	color:#515180;
+}
+
+.responsive h3, div.codigo h3{
+	text-transform: uppercase;
+	color:navy;
+	letter-spacing: 5px;	
+}
+div.codigo :not(pre) > code[class*="language-"], pre[class*="language-"]{
+	border:1px solid #ccc;
+	box-shadow:inset 1px 1px 4px #c7be87;
+}
+
+#main-menu ul li{
+    padding:20px 10px 25px 10px;
+}
+
+#presentacion{
+	font-size:1em;
+	color:#333;
+	line-height:1.5;
+	margin-bottom:5em;
+}
+#presentacion a{
+	color:#ba0c2f;
+}
